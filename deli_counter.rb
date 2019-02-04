@@ -5,6 +5,6 @@ def line (array)
   else
     msg = "The line is currently: "
     array.each {|name| msg << "#{array.index(name)+1}. #{name} "}
-    puts msg
+    print msg
   end
 end
